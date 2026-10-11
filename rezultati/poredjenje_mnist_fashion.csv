@@ -1,0 +1,16 @@
+,,ARI,ARI,tacnost,tacnost
+skup,,fashion,mnist,fashion,mnist
+prostor,algoritam,,,,
+AE-10,Aglomerativno,0.441,0.724,0.546,0.812
+AE-10,GMM,0.455,0.655,0.590,0.758
+AE-10,K-means,0.381,0.626,0.545,0.764
+AE-UMAP-10,Aglomerativno,0.494,0.836,0.602,0.915
+AE-UMAP-10,GMM,0.478,0.789,0.582,0.822
+AE-UMAP-10,K-means,0.485,0.855,0.587,0.927
+PCA-50,Aglomerativno,0.343,0.529,0.477,0.642
+PCA-50,GMM,0.369,0.449,0.496,0.608
+PCA-50,K-means,0.348,0.363,0.476,0.530
+UMAP-10,Aglomerativno,0.467,0.809,0.587,0.830
+UMAP-10,GMM,0.512,0.810,0.612,0.829
+UMAP-10,K-means,0.486,0.774,0.586,0.814
+sirovi pikseli,K-means,0.374,0.367,0.540,0.535

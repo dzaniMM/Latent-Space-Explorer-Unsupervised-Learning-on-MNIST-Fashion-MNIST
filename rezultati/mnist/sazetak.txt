@@ -1,0 +1,39 @@
+{
+  "skup": "mnist",
+  "uzorak": 70000,
+  "deo1": {
+    "pca_komp_80%": 43,
+    "pca_komp_90%": 87,
+    "pca_komp_95%": 154,
+    "pca_komp_99%": 331,
+    "vreme_PCA_s": 1.0271797180175781,
+    "vreme_UMAP_s": 57.314183712005615,
+    "vreme_AE_s": 10.5533766746521,
+    "vreme_AE_UMAP_s": 37.68574810028076,
+    "MSE_rekonstrukcije_PCA10": 0.03436928242444992,
+    "MSE_rekonstrukcije_AE10": 0.01379752904176712,
+    "vreme_tSNE_s": 94.87513375282288
+  },
+  "deo2_najbolje": "K-means na AE-UMAP-10: tačnost 0.927, ARI 0.855",
+  "deo2_kmeans_pikseli_tacnost": 0.5348,
+  "deo3": {
+    "najbolja_kombinacija": "AE-UMAP-10|K-means",
+    "najbolja_tacnost": 0.9268,
+    "podeljene_klase": [],
+    "spojeni_klasteri": {
+      "K9": [
+        "3",
+        "5"
+      ]
+    },
+    "najcesce_zamene": [
+      "5 -> 3: 30.0% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "8 -> 3: 7.5% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "4 -> 9: 6.3% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "5 -> 8: 3.1% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "7 -> 9: 2.6% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "9 -> 3: 2.2% [stvarno mešanje (iste slike u zajedničkom klasteru)]"
+    ]
+  },
+  "ukupno_vreme_min": 2.7
+}

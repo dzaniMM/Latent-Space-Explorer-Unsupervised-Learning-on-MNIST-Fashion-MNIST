@@ -1,0 +1,67 @@
+{
+  "skup": "fashion",
+  "uzorak": 70000,
+  "deo1": {
+    "pca_komp_80%": 24,
+    "pca_komp_90%": 84,
+    "pca_komp_95%": 188,
+    "pca_komp_99%": 459,
+    "vreme_PCA_s": 0.17257070541381836,
+    "vreme_UMAP_s": 55.96801447868347,
+    "vreme_AE_s": 9.70598030090332,
+    "vreme_AE_UMAP_s": 41.19276833534241,
+    "MSE_rekonstrukcije_PCA10": 0.024367250502109528,
+    "MSE_rekonstrukcije_AE10": 0.01303235162049532,
+    "vreme_tSNE_s": 84.66983938217163
+  },
+  "deo2_najbolje": "GMM na UMAP-10: tačnost 0.612, ARI 0.512",
+  "deo2_kmeans_pikseli_tacnost": 0.5398857142857143,
+  "deo3": {
+    "najbolja_kombinacija": "UMAP-10|GMM",
+    "najbolja_tacnost": 0.6120428571428571,
+    "podeljene_klase": [
+      "Džemper",
+      "Haljina"
+    ],
+    "spojeni_klasteri": {
+      "K1": [
+        "Džemper",
+        "Košulja"
+      ],
+      "K2": [
+        "Sandala",
+        "Patika"
+      ],
+      "K5": [
+        "Majica",
+        "Košulja"
+      ],
+      "K6": [
+        "Sandala",
+        "Čizma"
+      ],
+      "K7": [
+        "Džemper",
+        "Kaput",
+        "Košulja"
+      ],
+      "K8": [
+        "Haljina",
+        "Kaput"
+      ],
+      "K9": [
+        "Džemper",
+        "Kaput"
+      ]
+    },
+    "najcesce_zamene": [
+      "Sandala -> Patika: 51.9% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "Sandala -> Čizma: 47.4% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "Džemper -> Kaput: 32.2% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "Kaput -> Džemper: 30.0% [stvarno mešanje (iste slike u zajedničkom klasteru)]",
+      "Džemper -> Košulja: 29.0% [artefakt uparivanja: klasa podeljena na više klastera]",
+      "Haljina -> Sandala: 27.8% [artefakt uparivanja: klasa podeljena na više klastera]"
+    ]
+  },
+  "ukupno_vreme_min": 2.3
+}
